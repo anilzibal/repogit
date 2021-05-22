@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_dashboard"
+    app:startDestination="@id/history_dest">
+
+
+    <fragment
+        android:id="@+id/history_fragment"
+        android:name="com.sample.vide.ui.fragment.navhost.HistoryNavHostFragment"
+        android:label="DashboardHost"
+        tools:layout="@layout/fragment_navhost_history" />
+
+    <fragment
+        android:id="@+id/history_dest"
+        android:name="com.sample.vide.ui.fragment.HistoryFragment"
+        android:label="DashboardFragment1"
+        tools:layout="@layout/fragment_history">
+    </fragment>
+
+
+</navigation>

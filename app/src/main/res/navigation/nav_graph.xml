@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/start_dest">
+
+    <!-- MainFragment-->
+    <fragment
+        android:id="@+id/start_dest"
+        android:name="com.sample.vide.ui.fragment.ViewPagerContainerFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_viewpager_container">
+
+        <!-- Login -->
+        <!--        <action-->
+        <!--                android:id="@+id/action_main_dest_to_loginFragment2"-->
+        <!--                app:destination="@id/loginFragment2" />-->
+    </fragment>
+<!--    <fragment-->
+<!--        android:id="@+id/FirstFragment"-->
+<!--        android:name="com.sample.vide.ui.activity.FirstFragment"-->
+<!--        android:label="@string/first_fragment_label"-->
+<!--        tools:layout="@layout/fragment_first">-->
+
+<!--        <action-->
+<!--            android:id="@+id/action_FirstFragment_to_SecondFragment"-->
+<!--            app:destination="@id/SecondFragment" />-->
+<!--    </fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/SecondFragment"-->
+<!--        android:name="com.sample.vide.ui.activity.SecondFragment"-->
+<!--        android:label="@string/second_fragment_label"-->
+<!--        tools:layout="@layout/fragment_second">-->
+
+<!--        <action-->
+<!--            android:id="@+id/action_SecondFragment_to_FirstFragment"-->
+<!--            app:destination="@id/FirstFragment" />-->
+<!--    </fragment>-->
+
+
+    <!-- Global Action Start -->
+    <!--    <action-->
+    <!--            android:id="@+id/action_global_start"-->
+    <!--            app:destination="@id/start_dest"-->
+    <!--            app:popUpTo="@id/start_dest"-->
+    <!--            app:popUpToInclusive="true" />-->
+
+    <!-- Login -->
+    <!--    <fragment-->
+    <!--            android:id="@+id/loginFragment2"-->
+    <!--            android:name="com.smarttoolfactory.tutorial6_2navigationui_viewpager2_nestednavhost.blankfragment.LoginFragment2"-->
+    <!--            android:label="LoginFragment2" />-->
+
+
+</navigation>
